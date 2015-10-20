@@ -1,0 +1,8 @@
+.form-register, .form-signin{
+    width: 280px;
+    margin: 80px auto;
+}
+
+.maincontainer{
+    margin-top: 60px;
+}

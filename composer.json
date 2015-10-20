@@ -1,0 +1,24 @@
+{
+    "name": "ercling/miritekauth",
+    "description": "Test task for miritek. Registration, authorization and deauthorization",
+    "type": "project",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Oleksandr Mykhaylyuta",
+            "email": "ercling@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "monolog/monolog": "^1.16@dev",
+        "ezyang/htmlpurifier": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "base\\": "base/",
+            "app\\": ""
+        }
+    }
+
+}
